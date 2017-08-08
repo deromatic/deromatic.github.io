@@ -17,19 +17,22 @@
    <h4> This Explains how the API for UTAMU Results Querry was Modled;</h4>
         
           <p>      Decide the Style of the API
-While designing an API, one of the first things to consider is creating a style guide. This serve as a set of rules and best practices for creating controllers, defining routes, and other aspects of the API. It also provide answers to the big questions such as serialization of entities, mapping Data Transfer Objects (DTOs) if needed, repositories, domain services, database/entity validation, DTO validation, and any third party technologies used, it’s maintained regularly and referred back to when needed.
-Defining operations in terms of HTTP methods
-The HTTP protocol defines a number of methods that assign semantic meaning to a request. The common HTTP methods used by most RESTful web APIs are:
+While designing an API, one of the first things to consider is creating a style guide. <br>This serve as a set of rules and best practices for creating controllers, defining routes, and other aspects of the API. It also provide answers to the big questions such as serialization of entities, mapping Data Transfer Objects (DTOs) if needed, repositories, domain services, database/entity validation, DTO validation, and any third party technologies used, it’s maintained regularly and referred back to when needed.
+<p>Defining operations in terms of HTTP methods</p>
+The HTTP protocol defines a number of methods that assign semantic meaning to a request. 
+                <h5>The common HTTP methods used by most RESTful web APIs are:</h5>
 
-                •	GET
+          <ul>
+  	<li>GET:  
 To retrieve a copy of the resource at the specified URI. The body of the response message contains the details of the requested resource.
-•	POST
+<li>POST:
 To create a new resource at the specified URI. The body of the request message provides the details of the new resource. Note that POST can also be used to trigger operations that don't actually create resources.
-•	PUT
+    <li>PUT:
 To replace or update the resource at the specified URI. The body of the request message specifies the resource to be modified and the values to be applied.
-•	DELETE
+•	<li>DELETE:
 To remove the resource at the specified URI.
 </p>
+                </ul>
             </div>
         <div class="col-lg-2 col-lg-offset-2 text-center">
             <a href="https://twitter.com/{{ site.twitter_username }}">
